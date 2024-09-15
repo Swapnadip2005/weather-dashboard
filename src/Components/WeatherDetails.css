@@ -1,0 +1,27 @@
+.wind {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 15px 0;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details > img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.weather_details, .value {
+  font-size: 1.1rem;
+}
+
+.value {
+  font-weight: 500;
+}
